@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/navigation';
 import LocaleSwitcher from '@/components/locale-switcher';
+import { ThemeSwitcher } from '@/components/theme-switcher'; // Import ThemeSwitcher
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
 import { Menu } from 'lucide-react';
@@ -43,7 +44,7 @@ export default function Header() {
       className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
     >
       <div className="container-max flex h-16 items-center justify-between px-4 md:px-8">
-        <Link href="/" className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-2 border-red-500 border"> {/* Added temporary red border */}
           <Image
             src="/siventys-logo.svg"
             alt="Siventys Logo"
@@ -54,7 +55,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
+        <nav className="hidden md:flex items-center gap-6 text-sm font-sans font-medium"> {/* Added font-sans */}
           {navItems.map((item) => (
             <Link
               key={item.href}
@@ -65,20 +66,22 @@ export default function Header() {
             </Link>
           ))}
           <LocaleSwitcher />
+          <ThemeSwitcher /> {/* Added ThemeSwitcher */}
         </nav>
 
         {/* Mobile Navigation */}
         <div className="md:hidden flex items-center">
            <LocaleSwitcher />
+           <ThemeSwitcher /> {/* Added ThemeSwitcher */}
           <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon">
+              <Button variant="ghost" size="icon" className="font-sans"> {/* Added font-sans */}
                 <Menu className="h-6 w-6" />
                 <span className="sr-only">Toggle navigation menu</span>
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-[300px] sm:w-[400px] bg-background p-6">
-              <nav className="flex flex-col gap-6 mt-8">
+              <nav className="flex flex-col gap-6 mt-8 font-sans"> {/* Added font-sans */}
                 {navItems.map((item) => (
                    <Link
                     key={item.href}

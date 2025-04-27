@@ -13,33 +13,33 @@
 
 @layer base {
   :root {
-    /* Siventys Palette */
-    --background: 240 4% 10%; /* Near black */
-    --foreground: 0 0% 96%; /* Light grey/off-white */
+    /* Light Theme Palette */
+    --background: 0 0% 100%; /* White */
+    --foreground: 240 10% 3.9%; /* Darker near black for better contrast */
 
-    --card: 240 4% 10%;
-    --card-foreground: 0 0% 96%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
 
-    --popover: 240 4% 10%;
-    --popover-foreground: 0 0% 96%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
 
-    --primary: 240 3% 17%; /* Dark grey */
+    --primary: 240 5.9% 10%; /* Dark grey */
     --primary-foreground: 0 0% 98%; /* Keep high contrast */
 
-    --secondary: 240 2% 29%; /* Medium grey */
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%; /* Light grey */
+    --secondary-foreground: 240 5.9% 10%;
 
-    --muted: 240 3% 20%; /* Darker grey */
-    --muted-foreground: 0 0% 65%;
+    --muted: 240 4.8% 95.9%; /* Light grey */
+    --muted-foreground: 240 3.8% 46.1%; /* Medium grey */
 
     --accent: 180 100% 25%; /* Teal #008080 */
     --accent-foreground: 0 0% 98%; /* High contrast for accent */
 
-    --destructive: 0 72% 51%; /* Adjust if needed */
+    --destructive: 0 84.2% 60.2%; /* Red */
     --destructive-foreground: 0 0% 98%;
 
-    --border: 240 3% 20%; /* Muted */
-    --input: 240 3% 20%; /* Muted */
+    --border: 240 5.9% 90%; /* Light grey */
+    --input: 240 5.9% 90%; /* Light grey */
     --ring: 180 100% 35%; /* Brighter Teal for focus rings */
 
     --chart-1: 180 100% 25%;
@@ -50,7 +50,56 @@
 
     --radius: 0.5rem;
 
-    /* Update sidebar colors if using the sidebar component */
+    /* Sidebar colors for light theme */
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 240 10% 3.9%;
+    --sidebar-primary: 180 100% 25%; /* Accent */
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%; /* Secondary */
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 240 5.9% 90%; /* Border */
+    --sidebar-ring: 180 100% 35%; /* Ring */
+  }
+
+  .dark {
+    /* Dark Theme Palette */
+    --background: 240 4% 10%; /* Near black */
+    --foreground: 0 0% 96%; /* Light grey/off-white */
+
+    --card: 240 4% 10%;
+    --card-foreground: 0 0% 96%;
+
+    --popover: 240 4% 10%;
+    --popover-foreground: 0 0% 96%;
+
+    --primary: 240 3% 17%; /* Dark grey */
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 2% 29%; /* Medium grey */
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 3% 20%; /* Darker grey */
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 180 100% 25%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 3% 20%;
+    --input: 240 3% 20%;
+    --ring: 180 100% 35%;
+
+    --chart-1: 180 100% 25%;
+    --chart-2: 190 80% 35%;
+    --chart-3: 200 70% 45%;
+    --chart-4: 210 60% 55%;
+    --chart-5: 220 50% 65%;
+
+    --radius: 0.5rem;
+
+    /* Sidebar colors for dark theme */
     --sidebar-background: 240 4% 10%;
     --sidebar-foreground: 0 0% 96%;
     --sidebar-primary: 180 100% 25%; /* Accent */
@@ -59,47 +108,6 @@
     --sidebar-accent-foreground: 0 0% 98%;
     --sidebar-border: 240 3% 20%; /* Muted */
     --sidebar-ring: 180 100% 35%; /* Ring */
-
-    /* Font variables */
-    --font-sans: 'Logirent', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
-  }
-
-  /* Apply dark theme by default */
-  .dark {
-    /* Dark theme variables can inherit from :root or be redefined if needed */
-     --background: 240 4% 10%;
-    --foreground: 0 0% 96%;
-    --card: 240 4% 10%;
-    --card-foreground: 0 0% 96%;
-    --popover: 240 4% 10%;
-    --popover-foreground: 0 0% 96%;
-    --primary: 240 3% 17%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 240 2% 29%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 240 3% 20%;
-    --muted-foreground: 0 0% 65%;
-    --accent: 180 100% 25%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 72% 51%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 240 3% 20%;
-    --input: 240 3% 20%;
-    --ring: 180 100% 35%;
-    --chart-1: 180 100% 25%;
-    --chart-2: 190 80% 35%;
-    --chart-3: 200 70% 45%;
-    --chart-4: 210 60% 55%;
-    --chart-5: 220 50% 65%;
-    --sidebar-background: 240 4% 10%;
-    --sidebar-foreground: 0 0% 96%;
-    --sidebar-primary: 180 100% 25%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 3% 17%;
-    --sidebar-accent-foreground: 0 0% 98%;
-    --sidebar-border: 240 3% 20%;
-    --sidebar-ring: 180 100% 35%;
   }
 }
 

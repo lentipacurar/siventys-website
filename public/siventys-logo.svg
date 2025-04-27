@@ -1,22 +1,12 @@
-<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#008080;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#2F4F4F;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  <style>
-    .logo-text {
-      font-family: 'Logirent', sans-serif; /* Fallback font */
-      font-size: 30px;
-      fill: url(#logoGradient);
-      font-weight: bold;
-       letter-spacing: 1px;
-    }
-     @font-face {
-      font-family: 'Logirent';
-      src: url('/fonts/Logirent.otf') format('opentype');
-     }
-  </style>
-  <text x="10" y="35" class="logo-text">Siventys</text>
+<svg width="147" height="35" viewBox="0 0 147 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15.4843 0L0 35L7.74215 35L19.3108 6.8818L26.0348 23.2261L33.777 35H41.4805L23.6281 0L15.4843 0Z" fill="#080E1B"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M61.9353 26.073L69.4665 35H79.057L67.0698 20.2502L78.5487 0H69.0307L62.1316 12.079L55.4916 0H45.8654L57.2753 20.1741L49.7707 26.073H61.9353Z" fill="#080E1B"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M91.4058 0C83.6807 0 77.4524 6.17997 77.4524 15.1672C77.4524 24.1555 83.6807 30.3355 91.4058 30.3355C99.1309 30.3355 105.359 24.1555 105.359 15.1672C105.359 6.17997 99.1309 0 91.4058 0ZM91.4058 22.4658C88.6176 22.4658 86.3991 20.2746 86.3991 17.5133V15.1672C86.3991 12.406 88.6176 10.2148 91.4058 10.2148C94.1941 10.2148 96.4125 12.406 96.4125 15.1672V17.5133C96.4125 20.2746 94.1941 22.4658 91.4058 22.4658Z" fill="#080E1B"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M111.499 0H102.195V35H111.499V0Z" fill="#080E1B"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M134.506 26.073L142.037 35H151.627L139.64 20.2502L151.119 0H141.601L134.702 12.079L128.062 0H118.436L129.845 20.1741L122.341 26.073H134.506Z" fill="#080E1B"/>
+<linearGradient id="paint0_linear_1189_1034" x1="-25" y1="42.5" x2="44" y2="-15" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4154F1"/>
+<stop offset="1" stop-color="#F845B3"/>
+</linearGradient>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M26.0101 23.2261L19.2861 6.87513L15.4596 -5.91831e-07L7.71744 -5.24537e-07L19.2861 29.2324L26.0101 45.5886L33.7523 45.5886L26.0101 23.2261Z" fill="url(#paint0_linear_1189_1034)"/>
 </svg>
