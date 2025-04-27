@@ -1,0 +1,41 @@
+{
+  "Navigation": {
+    "home": "Kezdőlap",
+    "about": "Rólunk",
+    "aiAgents": "AI Ügynökök",
+    "customSolutions": "Egyedi Megoldások",
+    "contact": "Kapcsolat"
+  },
+  "LocaleSwitcher": {
+    "label": "Nyelvváltás",
+    "locale": "{locale, select, ro {Román} en {Angol} fr {Francia} de {Német} hu {Magyar} other {Ismeretlen}}"
+  },
+  "Hero": {
+    "title": "Siventys: Innováció a Mesterséges Intelligencia révén",
+    "subtitle": "Autonóm AI ügynököket és egyedi megoldásokat fejlesztünk a vállalkozások átalakítására.",
+    "cta": "Fedezze Fel Megoldásainkat"
+  },
+  "About": {
+    "title": "A Siventysről",
+    "text": "AI szakértők csapata vagyunk, szenvedélyesen alkotunk intelligens megoldásokat, amelyek valódi értéket képviselnek ügyfeleink számára. Küldetésünk, hogy demokratizáljuk a fejlett AI technológiákhoz való hozzáférést."
+  },
+  "AiAgents": {
+    "title": "AI Ügynökeink",
+    "text": "AI ügynökeinket úgy terveztük, hogy automatizálják a komplex feladatokat, elemezzék az adatokat és értékes betekintést nyújtsanak, autonóm módon működve optimalizálják üzleti műveleteit."
+  },
+  "CustomSolutions": {
+    "title": "Egyedi Megoldások",
+    "text": "Megértjük, hogy minden vállalkozás egyedi. Ezért kínálunk egyedi AI megoldásokat, amelyek az Ön vállalatának specifikus igényeihez és céljaihoz igazodnak, a tanácsadástól a teljes körű megvalósításig."
+  },
+  "Contact": {
+    "title": "Lépjen Kapcsolatba Velünk",
+    "text": "Készen áll felfedezni az AI potenciálját vállalkozása számára? Vegye fel velünk a kapcsolatot egy megbeszélésre arról, hogyan segíthetünk.",
+    "nameLabel": "Név",
+    "emailLabel": "Email",
+    "messageLabel": "Üzenet",
+    "submitButton": "Üzenet Küldése"
+  },
+  "Footer": {
+    "copy": "© {year} Siventys. Minden jog fenntartva."
+  }
+}

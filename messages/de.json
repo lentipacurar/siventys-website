@@ -1,0 +1,41 @@
+{
+  "Navigation": {
+    "home": "Startseite",
+    "about": "Über Uns",
+    "aiAgents": "KI-Agenten",
+    "customSolutions": "Maßgeschneiderte Lösungen",
+    "contact": "Kontakt"
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache ändern",
+    "locale": "{locale, select, ro {Rumänisch} en {Englisch} fr {Französisch} de {Deutsch} hu {Ungarisch} other {Unbekannt}}"
+  },
+  "Hero": {
+    "title": "Siventys: Innovation durch Künstliche Intelligenz",
+    "subtitle": "Wir entwickeln autonome KI-Agenten und maßgeschneiderte Lösungen zur Transformation von Unternehmen.",
+    "cta": "Entdecken Sie Unsere Lösungen"
+  },
+  "About": {
+    "title": "Über Siventys",
+    "text": "Wir sind ein Team von KI-Experten, die leidenschaftlich daran arbeiten, intelligente Lösungen zu schaffen, die unseren Kunden echten Mehrwert bieten. Unsere Mission ist es, den Zugang zu fortschrittlichen KI-Technologien zu demokratisieren."
+  },
+  "AiAgents": {
+    "title": "Unsere KI-Agenten",
+    "text": "Unsere KI-Agenten sind darauf ausgelegt, komplexe Aufgaben zu automatisieren, Daten zu analysieren und wertvolle Einblicke zu liefern. Sie arbeiten autonom, um Ihre Geschäftsabläufe zu optimieren."
+  },
+  "CustomSolutions": {
+    "title": "Maßgeschneiderte Lösungen",
+    "text": "Wir verstehen, dass jedes Unternehmen einzigartig ist. Deshalb bieten wir maßgeschneiderte KI-Lösungen an, die auf die spezifischen Bedürfnisse und Ziele Ihres Unternehmens zugeschnitten sind, von der Beratung bis zur vollständigen Implementierung."
+  },
+  "Contact": {
+    "title": "Kontaktieren Sie Uns",
+    "text": "Bereit, das Potenzial von KI für Ihr Unternehmen zu erkunden? Kontaktieren Sie uns für ein Gespräch darüber, wie wir helfen können.",
+    "nameLabel": "Name",
+    "emailLabel": "E-Mail",
+    "messageLabel": "Nachricht",
+    "submitButton": "Nachricht Senden"
+  },
+  "Footer": {
+    "copy": "© {year} Siventys. Alle Rechte vorbehalten."
+  }
+}

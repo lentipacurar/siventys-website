@@ -1,0 +1,41 @@
+{
+  "Navigation": {
+    "home": "Acasă",
+    "about": "Despre Noi",
+    "aiAgents": "Agenți AI",
+    "customSolutions": "Soluții Personalizate",
+    "contact": "Contact"
+  },
+  "LocaleSwitcher": {
+    "label": "Schimbă limba",
+    "locale": "{locale, select, ro {Română} en {Engleză} fr {Franceză} de {Germană} hu {Maghiară} other {Unknown}}"
+  },
+  "Hero": {
+    "title": "Siventys: Inovație prin Inteligență Artificială",
+    "subtitle": "Dezvoltăm agenți AI autonomi și soluții personalizate pentru a transforma afacerile.",
+    "cta": "Descoperă Soluțiile Noastre"
+  },
+  "About": {
+    "title": "Despre Siventys",
+    "text": "Suntem o echipă de experți pasionați de AI, dedicați creării de soluții inteligente care aduc valoare reală clienților noștri. Misiunea noastră este să democratizăm accesul la tehnologii AI avansate."
+  },
+  "AiAgents": {
+    "title": "Agenții Noștri AI",
+    "text": "Agenții noștri AI sunt proiectați pentru a automatiza sarcini complexe, a analiza date și a oferi insight-uri valoroase, funcționând autonom pentru a optimiza operațiunile afacerii tale."
+  },
+  "CustomSolutions": {
+    "title": "Soluții Personalizate",
+    "text": "Înțelegem că fiecare afacere este unică. De aceea, oferim soluții AI personalizate, adaptate nevoilor și obiectivelor specifice ale companiei tale, de la consultanță la implementare completă."
+  },
+  "Contact": {
+    "title": "Contactează-ne",
+    "text": "Ești gata să explorezi potențialul AI pentru afacerea ta? Contactează-ne pentru o discuție despre cum te putem ajuta.",
+    "nameLabel": "Nume",
+    "emailLabel": "Email",
+    "messageLabel": "Mesaj",
+    "submitButton": "Trimite Mesajul"
+  },
+  "Footer": {
+    "copy": "© {year} Siventys. Toate drepturile rezervate."
+  }
+}

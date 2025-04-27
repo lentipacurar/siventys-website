@@ -1,0 +1,41 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "aiAgents": "AI Agents",
+    "customSolutions": "Custom Solutions",
+    "contact": "Contact Us"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, ro {Romanian} en {English} fr {French} de {German} hu {Hungarian} other {Unknown}}"
+  },
+  "Hero": {
+    "title": "Siventys: Innovation through Artificial Intelligence",
+    "subtitle": "We develop autonomous AI agents and custom solutions to transform businesses.",
+    "cta": "Discover Our Solutions"
+  },
+  "About": {
+    "title": "About Siventys",
+    "text": "We are a team of AI experts passionate about creating intelligent solutions that bring real value to our clients. Our mission is to democratize access to advanced AI technologies."
+  },
+  "AiAgents": {
+    "title": "Our AI Agents",
+    "text": "Our AI agents are designed to automate complex tasks, analyze data, and provide valuable insights, operating autonomously to optimize your business operations."
+  },
+  "CustomSolutions": {
+    "title": "Custom Solutions",
+    "text": "We understand that every business is unique. That's why we offer custom AI solutions tailored to the specific needs and goals of your company, from consulting to full implementation."
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "text": "Ready to explore the potential of AI for your business? Contact us for a discussion on how we can help.",
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "messageLabel": "Message",
+    "submitButton": "Send Message"
+  },
+  "Footer": {
+    "copy": "© {year} Siventys. All rights reserved."
+  }
+}

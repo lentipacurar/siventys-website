@@ -1,0 +1,41 @@
+{
+  "Navigation": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "aiAgents": "Agents IA",
+    "customSolutions": "Solutions Personnalisées",
+    "contact": "Contact"
+  },
+  "LocaleSwitcher": {
+    "label": "Changer de langue",
+    "locale": "{locale, select, ro {Roumain} en {Anglais} fr {Français} de {Allemand} hu {Hongrois} other {Inconnu}}"
+  },
+  "Hero": {
+    "title": "Siventys : L'innovation par l'Intelligence Artificielle",
+    "subtitle": "Nous développons des agents IA autonomes et des solutions sur mesure pour transformer les entreprises.",
+    "cta": "Découvrez Nos Solutions"
+  },
+  "About": {
+    "title": "À Propos de Siventys",
+    "text": "Nous sommes une équipe d'experts en IA passionnés par la création de solutions intelligentes qui apportent une réelle valeur à nos clients. Notre mission est de démocratiser l'accès aux technologies IA avancées."
+  },
+  "AiAgents": {
+    "title": "Nos Agents IA",
+    "text": "Nos agents IA sont conçus pour automatiser des tâches complexes, analyser des données et fournir des informations précieuses, fonctionnant de manière autonome pour optimiser les opérations de votre entreprise."
+  },
+  "CustomSolutions": {
+    "title": "Solutions Personnalisées",
+    "text": "Nous comprenons que chaque entreprise est unique. C'est pourquoi nous proposons des solutions IA personnalisées, adaptées aux besoins et objectifs spécifiques de votre entreprise, du conseil à la mise en œuvre complète."
+  },
+  "Contact": {
+    "title": "Contactez-nous",
+    "text": "Prêt à explorer le potentiel de l'IA pour votre entreprise ? Contactez-nous pour discuter de la manière dont nous pouvons vous aider.",
+    "nameLabel": "Nom",
+    "emailLabel": "Email",
+    "messageLabel": "Message",
+    "submitButton": "Envoyer le Message"
+  },
+  "Footer": {
+    "copy": "© {year} Siventys. Tous droits réservés."
+  }
+}
